@@ -1,0 +1,10 @@
+{
+  "name": "abchain",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "node1": "node packages/node/src/index.js node1",
+    "node2": "node packages/node/src/index.js node2"
+  }
+}
